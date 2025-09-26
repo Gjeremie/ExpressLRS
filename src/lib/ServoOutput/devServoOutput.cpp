@@ -78,6 +78,9 @@ static void servoWrite(uint8_t ch, uint16_t us)
         }
         else
         {
+            
+            //  JG: CHANGER LA PLAGE PWM de 988 - 2012 à 700 - 2300 uniquement sur channel 1
+            if (ch == 0) us = fmap(us, 988, 2012, 700, 2300); 
             PWM.setMicroseconds(pwmChannels[ch], us / (chConfig->val.narrow + 1));
         }
     }
