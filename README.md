@@ -10,6 +10,11 @@
 
 </center>
 
+## JG MODIFIED RELEASE
+
+widen the range of the steering servo (channel 1) 700 to 2300 us
+
+
 ## Support ExpressLRS
 You can support ExpressLRS by contributing code, testing new features, sharing your ideas, or helping others get started. We are exceptionally grateful for those who donate their time to our passion.
 
